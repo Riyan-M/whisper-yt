@@ -1,0 +1,16 @@
+{
+  "name": "Whisper Diarization Url Medium",
+  "category": "Audio",
+  "example_input": {
+    "youtube_url":"",
+    "audio_url":"",
+    "mp3_url":"https://tmpfiles.org/dl/987390/hobbies.mp3",
+    "language": "en",
+    "num_speakers": 2
+  },
+  "example_output": {
+    "text": "[\n  {\n    \"speaker\":\"SPEAKER 2\",\n    \"content\":\"Unit 11, Hobbies\",\n    \"timestamp\":{\n      \"start\":\"0:00:00\",\n      \"end\":\"0:00:07\"\n    }\n  },\n  {\n    \"speaker\":\"SPEAKER 1\",\n    \"content\":\"Do you have any hobbies?  Yes, I have several.  Really? Please, tell me more about your hobbies.  Well, I do like to collect things.  Really? What do you like to collect?  I like to collect stamps.  Really? Where do you collect stamps from?  I collect stamps from all over the world.  Why do you do that?  Because eventually I hope to have a stamp from every country.  Why do you want all of those stamps?  I think it's because I won't be able to go to those countries myself.  Oh, what is another hobby of yours?  I collect beer.  Pardon me? You collect beer?  Well, actually I collect beer cans.  Okay, where do you get the cans from?  From every place that I travel to.  Do you drink the beer?  Nah, I'm not a beer drinker.  Oh, I see.  What about you? What are your hobbies?  Well, I like to read a lot.  Really? What do you read about?  I like to read about bestsellers, and I like to read a lot about science too.  What kind of science do you read about?  A variety of topics, but I especially like to read about nature and about electronics.  Fascinating. Why do you like to read so much?  Well, I think it helps me exercise my brain.\",\n    \"timestamp\":{\n      \"start\":\"0:00:13\",\n      \"end\":\"0:02:20\"\n    }\n  },\n  {\n    \"speaker\":\"SPEAKER 2\",\n    \"content\":\"That's a good reason, if it doesn't make you too tired.  Do you have any hobbies?  Yes, I have several.  What do you like to collect?  I like to collect stamps.  What is another hobby of yours?  Do you drink the beer?  Nah, I'm not a beer drinker.  What about you? What are your hobbies?  Well, I like to read a lot.  What do you read about?  What kind of science?\",\n    \"timestamp\":{\n      \"start\":\"0:02:20\",\n      \"end\":\"0:03:20\"\n    }\n  }\n]"
+  },
+  "version": "1"
+}
+
